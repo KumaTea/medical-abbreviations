@@ -1,8 +1,7 @@
-import os
 import csv
 
 
-files = ['../#-M, medical abbreviations.csv', '../N-Z, medical abbreviations.csv']
+files = ['../ALL.csv']
 
 abbr = {'#':[]}
 for i in range(97, 123):
@@ -34,12 +33,8 @@ for i in files:
     split(i)
 
 
-if not os.path.isdir('../split'):
-    os.mkdir('../split')
-
-
 for i in abbr:
-    with open(f'../split/{i}.csv', 'w', encoding='utf-8', newline='') as f:
+    with open(f'../{i}.csv', 'w', encoding='utf-8', newline='') as f:
         writer = csv.writer(f)
         writer.writerow(first_line)
         writer.writerows(sorted(abbr[i]))
