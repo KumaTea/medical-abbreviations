@@ -8,6 +8,8 @@ split = ['../#.csv']
 for i in range(97, 123):
     split.append(f'../{chr(i)}.csv')
 
+first_line = ['Abbreviation', 'Meaning', 'Translation', 'More']
+
 
 for i in split:
     tmp = []
@@ -21,5 +23,5 @@ for i in split:
 
 with open(ALL_file, 'w', encoding='utf-8', newline='') as f:
     writer = csv.writer(f)
-    writer.writerow(['Abbreviation', 'Meaning', 'Translation', 'More'])
+    writer.writerow(first_line)
     writer.writerows(ALL)

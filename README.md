@@ -21,4 +21,4 @@ Here's all the textbooks which I plan to collect abbrevations from:
 * [ ] Pathophysiology
 * [ ] Parasitology
 
-...And subjects I haven't learned yet.
+... and subjects I haven't learned yet.

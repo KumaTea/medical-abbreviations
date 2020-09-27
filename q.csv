@@ -1,16 +1,16 @@
 Abbreviation,Meaning,Translation,More
 Q4H,every four hours,,
 Q8H,every eight hours,,
-QALY,Quality Adjusted Life Years,,
-QAM,every morning,,
-QD,every day/daily,,
-QH,every hour/hourly,,
-QHP,Qualified Healthcare Professional,,
-QHS,every night/nightly,,
-QID,four times per day,,
-Qmax,maximum urine flow rate,,
-QN,every night/nightly,,
-QOD,every other day,,
-QoL,quality of life,,
-qPCR,quantitative polymerase chain reaction,,
+QALY,Quality Adjusted Life Years,,https://en.wikipedia.org/wiki/Quality-adjusted_life_year
+QAM,every morning,,https://en.wikipedia.org/wiki/Quadrature_amplitude_modulation
+QD,every day/daily,,https://en.wikipedia.org/wiki/QD
+QH,every hour/hourly,,https://en.wikipedia.org/wiki/QH
+QHP,Qualified Healthcare Professional,,https://en.wikipedia.org/wiki/Physician_to_the_Queen
+QHS,every night/nightly,,https://en.wikipedia.org/wiki/QHS
+QID,four times per day,,https://en.wikipedia.org/wiki/QID
+QN,every night/nightly,,https://en.wikipedia.org/wiki/QN
+QOD,every other day,,https://en.wikipedia.org/wiki/Questions_on_Doctrine
 QXH,every X hours,,
+Qmax,maximum urine flow rate,,
+QoL,quality of life,,https://en.wikipedia.org/wiki/Quality_of_life
+qPCR,quantitative polymerase chain reaction,,https://en.wikipedia.org/wiki/Real-time_polymerase_chain_reaction
