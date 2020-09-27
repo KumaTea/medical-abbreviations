@@ -42,4 +42,4 @@ for i in abbr:
     with open(f'../split/{i}.csv', 'w', encoding='utf-8', newline='') as f:
         writer = csv.writer(f)
         writer.writerow(first_line)
-        writer.writerows(abbr[i])
+        writer.writerows(sorted(abbr[i]))
