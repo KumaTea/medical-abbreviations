@@ -7,7 +7,7 @@ abbr = {'#':[]}
 for i in range(97, 123):
     abbr[chr(i)] = []
 
-first_line = ['Abbreviation', 'Meaning', 'Translation', 'More']
+first_line = ['Abbreviation', 'Meaning', 'Translation', 'Wikipedia', 'Verified']
 
 
 def isnumber(item):

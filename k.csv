@@ -1,8 +1,8 @@
-Abbreviation,Meaning,Translation,More
-K,keratometry,,https://en.wikipedia.org/wiki/Keratometer
-K,potassium,,https://en.wikipedia.org/wiki/Potassium
-KAX,"ketamine, acepromazine, and xylazine",,https://en.wikipedia.org/wiki/Kalbarri_Airport
-KCH,King’s College Hospital,,https://en.wikipedia.org/wiki/KCH
-KCL,potassium chloride,,https://en.wikipedia.org/wiki/Potassium_chloride
-KUB,"kidney, ureter, bladder (x-ray)",,https://en.wikipedia.org/wiki/Kub
-Kmax,maximum simulated keratometry value,,
+Abbreviation,Meaning,Translation,Wikipedia,Verified
+K,keratometry,,https://en.wikipedia.org/wiki/Keratometer,
+K,potassium,,https://en.wikipedia.org/wiki/Potassium,
+KAX,"ketamine, acepromazine, and xylazine",,https://en.wikipedia.org/wiki/Kalbarri_Airport,
+KCH,King’s College Hospital,,https://en.wikipedia.org/wiki/KCH,
+KCL,potassium chloride,,https://en.wikipedia.org/wiki/Potassium_chloride,
+KUB,"kidney, ureter, bladder (x-ray)",,https://en.wikipedia.org/wiki/Kub,
+Kmax,maximum simulated keratometry value,,,

@@ -16,7 +16,7 @@ Here's all the textbooks which I plan to collect abbrevations from:
 * [ ] Pathology
 * [ ] Immunology
 * [ ] Microbiology
-* [ ] Diagnosis
+* [ ] Diagnostics
 * [ ] Pharmacology
 * [ ] Pathophysiology
 * [ ] Parasitology

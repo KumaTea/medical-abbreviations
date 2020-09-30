@@ -8,7 +8,7 @@ split = ['../#.csv']
 for i in range(97, 123):
     split.append(f'../{chr(i)}.csv')
 
-first_line = ['Abbreviation', 'Meaning', 'Translation', 'More']
+first_line = ['Abbreviation', 'Meaning', 'Translation', 'Wikipedia', 'Verified']
 
 
 for i in split:
