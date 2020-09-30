@@ -1,9 +1,8 @@
 import csv
 
-
 files = ['../ALL.csv']
 
-abbr = {'#':[]}
+abbr = {'#': []}
 for i in range(97, 123):
     abbr[chr(i)] = []
 
@@ -32,9 +31,8 @@ def split(source):
 for i in files:
     split(i)
 
-
 for i in abbr:
-    with open(f'../{i}.csv', 'w', encoding='utf-8', newline='') as f:
+    with open(f'../split/{i}.csv', 'w', encoding='utf-8', newline='') as f:
         writer = csv.writer(f)
         writer.writerow(first_line)
         writer.writerows(sorted(abbr[i]))

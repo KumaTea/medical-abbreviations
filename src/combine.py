@@ -4,9 +4,9 @@ import csv
 ALL = []
 ALL_file = '../ALL.csv'
 
-split = ['../#.csv']
+split = ['../split/#.csv']
 for i in range(97, 123):
-    split.append(f'../{chr(i)}.csv')
+    split.append(f'../split/{chr(i)}.csv')
 
 first_line = ['Abbreviation', 'Meaning', 'Translation', 'Wikipedia', 'Verified']
 
