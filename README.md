@@ -4,9 +4,9 @@ An ultimate list of medical abbrevations with meaning, Chinese translation and W
 
 This repository is originally forked from [imantsm/medical_abbreviations](https://github.com/imantsm/medical_abbreviations).
 
-## [Dictionary](.ALL.csv) list
+## [Dictionary](./ALL.csv) list
 
-**[ALL](.ALL.csv)**
+**[ALL](./ALL.csv)**
 
 [A](./split/a.csv)  [B](./split/b.csv)  [C](./split/c.csv)  [D](./split/d.csv)  [E](./split/e.csv)  [F](./split/f.csv)  [G](./split/g.csv)
 
