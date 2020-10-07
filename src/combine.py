@@ -11,17 +11,21 @@ for i in range(97, 123):
 first_line = ['Abbreviation', 'Meaning', 'Translation', 'Wikipedia', 'Verified']
 
 
-for i in split:
-    tmp = []
-    with open(i, encoding='utf-8', newline='') as f:
-        content = csv.reader(f)
-        next(content)
-        for row in content:
-            tmp.append(row)
-    ALL.extend(sorted(tmp))
+def combine():
+    for item in split:
+        tmp = []
+        with open(item, encoding='utf-8', newline='') as f:
+            content = csv.reader(f)
+            next(content)
+            for row in content:
+                tmp.append(row)
+        ALL.extend(sorted(tmp))
+
+    with open(ALL_file, 'w', encoding='utf-8', newline='') as f:
+        writer = csv.writer(f)
+        writer.writerow(first_line)
+        writer.writerows(ALL)
 
 
-with open(ALL_file, 'w', encoding='utf-8', newline='') as f:
-    writer = csv.writer(f)
-    writer.writerow(first_line)
-    writer.writerows(ALL)
+if __name__ == '__main__':
+    combine()

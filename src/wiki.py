@@ -17,27 +17,33 @@ def get_wiki(item, lang='en', variation='wiki'):
     return ''
 
 
-for i in split:
-    tmp = []
-    with open(i, encoding='utf-8', newline='') as f:
-        content = csv.reader(f)
-        next(content)
-        for row in content:
-            tmp.append(row)
-    for j in tmp:
-        try:  # bad network
-            if not j[3]:
-                if result := get_wiki(j[1]):
-                    j[3] = result
-                    sys.stdout.write('\r' + f'Get: {j[1]}')
-                elif result := get_wiki(j[0]):
-                    if 'disambiguation' not in result.lower():
-                        j[3] = result
-                        sys.stdout.write('\r' + f'Get: {j[1]}')
-        except:
-            pass
-    with open(i, 'w', encoding='utf-8', newline='') as f:
-        writer = csv.writer(f)
-        writer.writerow(first_line)
-        writer.writerows(sorted(tmp))
-    print(i, 'Done')
+def wiki():
+    for item in split:
+        tmp = []
+        with open(item, encoding='utf-8', newline='') as f:
+            content = csv.reader(f)
+            next(content)
+            for row in content:
+                tmp.append(row)
+        for j in tmp:
+            if not j[4]:
+                try:  # bad network
+                    if not j[3]:
+                        if result := get_wiki(j[1]):
+                            j[3] = result
+                            sys.stdout.write('\r' + f'Get: {j[1]}')
+                        elif result := get_wiki(j[0]):
+                            if 'disambiguation' not in result.lower():
+                                j[3] = result
+                                sys.stdout.write('\r' + f'Get: {j[1]}')
+                except:
+                    pass
+        with open(item, 'w', encoding='utf-8', newline='') as f:
+            writer = csv.writer(f)
+            writer.writerow(first_line)
+            writer.writerows(sorted(tmp))
+        print(item, 'Done')
+
+
+if __name__ == '__main__':
+    wiki()
