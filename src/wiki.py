@@ -1,12 +1,12 @@
 import csv
 import sys
 import requests
+from common import first_line
+
 
 split = ['../split/#.csv']
 for i in range(97, 123):
     split.append(f'../split/{chr(i)}.csv')
-
-first_line = ['Abbreviation', 'Meaning', 'Translation', 'Wikipedia', 'Verified']
 
 
 def get_wiki(item, lang='en', variation='wiki'):

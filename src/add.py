@@ -1,19 +1,18 @@
 import csv
 from wiki import get_wiki
 from combine import combine
+from common import first_line
 try:
     from translate import translate_word
 except:  # google.auth.exceptions.DefaultCredentialsError
     def translate_word(text): raise RuntimeError
 
+
 ALL = []
-ALL_file = '../ALL.csv'
 
 split = ['../split/#.csv']
 for i in range(97, 123):
     split.append(f'../split/{chr(i)}.csv')
-
-first_line = ['Abbreviation', 'Meaning', 'Translation', 'Wikipedia', 'Verified']
 
 
 def get_first(text):

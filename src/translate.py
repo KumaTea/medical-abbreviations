@@ -2,6 +2,7 @@ import os
 import csv
 import six
 import sys
+from common import first_line
 from google.cloud import translate_v2 as translate
 try:
     from local import cert_path
@@ -13,8 +14,6 @@ except ImportError:
 split = ['../split/#.csv']
 for i in range(97, 123):
     split.append(f'../split/{chr(i)}.csv')
-
-first_line = ['Abbreviation', 'Meaning', 'Translation', 'Wikipedia', 'Verified']
 
 translator = translate.Client()
 

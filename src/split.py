@@ -1,12 +1,12 @@
 import csv
+from common import first_line
+
 
 files = ['../ALL.csv']
 
 abbr = {'#': []}
 for i in range(97, 123):
     abbr[chr(i)] = []
-
-first_line = ['Abbreviation', 'Meaning', 'Translation', 'Wikipedia', 'Verified']
 
 
 def isnumber(item):

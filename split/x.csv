@@ -1,7 +1,7 @@
-Abbreviation,Meaning,Translation,Wikipedia,Verified
-XDR,extensively drug-resistant,广泛耐药,https://en.wikipedia.org/wiki/XDR,
-XDR-TB,extensively drug-resistant tuberculosis,广泛耐药结核,https://en.wikipedia.org/wiki/Extensively_drug-resistant_tuberculosis,
-XLA,X-linked agammaglobulinaemia,X连锁血球蛋白血症,https://en.wikipedia.org/wiki/X-linked_agammaglobulinemia,
-XLIF,extreme lateral interbody fusion,极度外侧椎间融合,,
-XLT,extended length tracheostomy tubes,加长气管切开术管,https://en.wikipedia.org/wiki/XLT,
-XRT,radiotherapy,放射疗法,https://en.wikipedia.org/wiki/Radiation_therapy,
+Abbreviation,Meaning,Translation,Wikipedia,Subject,Verified
+XDR,extensively drug-resistant,广泛耐药,https://en.wikipedia.org/wiki/XDR,,
+XDR-TB,extensively drug-resistant tuberculosis,广泛耐药结核,https://en.wikipedia.org/wiki/Extensively_drug-resistant_tuberculosis,,
+XLA,X-linked agammaglobulinaemia,X连锁血球蛋白血症,https://en.wikipedia.org/wiki/X-linked_agammaglobulinemia,,
+XLIF,extreme lateral interbody fusion,极度外侧椎间融合,,,
+XLT,extended length tracheostomy tubes,加长气管切开术管,https://en.wikipedia.org/wiki/XLT,,
+XRT,radiotherapy,放射疗法,https://en.wikipedia.org/wiki/Radiation_therapy,,
