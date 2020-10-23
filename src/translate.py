@@ -2,8 +2,10 @@ import os
 import csv
 import six
 import sys
+import requests
 from common import first_line
-from google.cloud import translate_v2 as translate
+from bs4 import BeautifulSoup
+from google.cloud import translate_v2 as google_tl
 try:
     from local import cert_path
     os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = cert_path
@@ -15,17 +17,34 @@ split = ['../split/#.csv']
 for i in range(97, 123):
     split.append(f'../split/{chr(i)}.csv')
 
-translator = translate.Client()
+translator = google_tl.Client()
 
 
-def translate_word(text, source='en', target='zh-CN', raw=False):
+def translate_from_wiki(wiki, variation='zh-cn'):
+    result = requests.get(wiki)
+    soup = BeautifulSoup(result.text)
+    tr = soup.find('a', lang='zh', class_='interlanguage-link-target')
+    if tr:
+        zh_result = requests.get(tr['href'].replace('/wiki/', f'/{variation}/'))
+        soup = BeautifulSoup(zh_result.text)
+        zh = soup.find('h1', id='firstHeading', lang='zh-Hans-CN')
+        if zh:
+            print('Get Wikipedia result!')
+            return zh.text
+    return ''
+
+
+def translate_word(text, source='en', target='zh-CN', wiki=None):
     text = text.decode("utf-8") if isinstance(text, six.binary_type) else text
     # I don't know why, Google says that.
+
+    if wiki and 'wiki' in wiki.lower():
+        w_result = translate_from_wiki(wiki)
+        if w_result:
+            return w_result
+
     t_result = translator.translate(text, target_language=target, source_language=source)
-    if raw:
-        return t_result
-    else:
-        return t_result['translatedText']
+    return t_result['translatedText']
 
 
 def translate():
@@ -37,13 +56,14 @@ def translate():
             for row in content:
                 tmp.append(row)
         for j in tmp:
-            try:  # bad network
-                if not j[2]:
-                    result = translate_word(j[1])
-                    j[2] = result
-                    sys.stdout.write('\r' + f'Get: {j[1]}')
-            except:
-                pass
+            if not j[5]:  # verified
+                try:  # bad network
+                    if not j[2]:
+                        result = translate_word(j[1], wiki=j[3])
+                        j[2] = result
+                        sys.stdout.write('\r' + f'Get: {j[1]}')
+                except:
+                    pass
         with open(item, 'w', encoding='utf-8', newline='') as f:
             writer = csv.writer(f)
             writer.writerow(first_line)

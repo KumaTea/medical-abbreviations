@@ -2,6 +2,8 @@
 
 An ultimate list of medical abbrevations with meaning, Chinese translation and Wikipedia link.
 
+> If you don't have Google Cloud access, you may use [py-googletrans](https://github.com/ssut/py-googletrans).
+
 This repository is originally forked from [imantsm/medical_abbreviations](https://github.com/imantsm/medical_abbreviations).
 
 ## [Dictionary](./ALL.csv) list

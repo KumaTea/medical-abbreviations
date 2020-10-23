@@ -1,0 +1,4 @@
+six
+requests
+beautifulsoup4
+google-cloud-translate

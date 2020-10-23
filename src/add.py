@@ -4,7 +4,8 @@ from combine import combine
 from common import first_line
 try:
     from translate import translate_word
-except:  # google.auth.exceptions.DefaultCredentialsError
+except:  # ImportError or google.auth.exceptions.DefaultCredentialsError
+    # Check README for possible solution
     def translate_word(text): raise RuntimeError
 
 
@@ -46,6 +47,9 @@ def add():
         abbr = input(f'Please input the {first_line[0]}:')
     while not mean:
         mean = input(f'Please input the {first_line[1]}:')
+    print(f'Trying to get {first_line[3]} link...')
+    wp = get_wiki(mean)
+    wp = input(f'Result: {wp}\nAccept or input manually:') or wp
     tr_auto = input("Auto translate? [Y/n]") or 'Y'
     if tr_auto.lower() == 'n':
         tr = input(f'Please input the {first_line[2]}:') or ''
@@ -55,9 +59,6 @@ def add():
         except:
             tr = 'Error: no Google Translate API access'
         tr = input(f'Accept \"{tr}\" (default) or input manually:') or tr
-    print(f'Trying to get {first_line[3]} link...')
-    wp = get_wiki(mean)
-    wp = input(f'Result: {wp}\nAccept or input manually:') or wp
     sj = input(f'Please input the {first_line[4]}:') or ''
     vf = input(f'Mark as {first_line[5]}? [Y/n]') or 'Y'
     first = get_first(abbr)
@@ -70,7 +71,9 @@ def add():
     print('Writing...')
     write([abbr, mean, tr, wp, sj, vf], first)
 
-    combine()
+    cb = input('End adding? [y/N]') or False
+    if cb:
+        combine()
 
 
 def quiet_add(abbr, mean, tr='', wp='', sj='', vf='', first='', cb=False):

@@ -2,6 +2,7 @@ import csv
 import sys
 import requests
 from common import first_line
+from bs4 import BeautifulSoup
 
 
 split = ['../split/#.csv']
@@ -12,8 +13,9 @@ for i in range(97, 123):
 def get_wiki(item, lang='en', variation='wiki'):
     result = requests.get(f'https://{lang}.wikipedia.org/{variation}/{item}')
     if result.status_code == 200:
-        wiki_link = result.text.replace('<link rel="canonical" href="', 'r@ndom}-=||').split('r@ndom}-=||')[-1]
-        return wiki_link[:wiki_link.find('"/>')]
+        soup = BeautifulSoup(result.text)
+        wiki_link = soup.find('link', rel='canonical')['href']
+        return wiki_link
     return ''
 
 
@@ -26,16 +28,12 @@ def wiki():
             for row in content:
                 tmp.append(row)
         for j in tmp:
-            if not j[4]:
+            if not j[5]:  # verified
                 try:  # bad network
                     if not j[3]:
                         if result := get_wiki(j[1]):
                             j[3] = result
                             sys.stdout.write('\r' + f'Get: {j[1]}')
-                        elif result := get_wiki(j[0]):
-                            if 'disambiguation' not in result.lower():
-                                j[3] = result
-                                sys.stdout.write('\r' + f'Get: {j[1]}')
                 except:
                     pass
         with open(item, 'w', encoding='utf-8', newline='') as f:
