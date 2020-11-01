@@ -75,6 +75,8 @@ ACT,assertive community treatment,自信的社区待遇,https://en.wikipedia.org
 ACTH,adrenocorticotropic hormone,促肾上腺皮质激素,https://en.wikipedia.org/wiki/Adrenocorticotropic_hormone,,
 ACV,assist control ventilation,协助控制通风,,,
 ACVD,arteriosclerotic cardiovascular disease,动脉粥样硬化,https://en.wikipedia.org/wiki/Atherosclerosis,,
+ACh,acetylcholine,乙酰胆碱,https://en.wikipedia.org/wiki/Acetylcholine,,Y
+AChR,acetylcholine receptor,乙酰胆碱受体,https://en.wikipedia.org/wiki/Acetylcholine_receptor,,Y
 AD,Alzheimer's disease,阿尔茨海默病,https://en.wikipedia.org/wiki/Alzheimer%27s_disease,,
 AD,atopic dermatitis,异位性皮炎,https://en.wikipedia.org/wiki/Atopic_dermatitis,,
 AD,right ear,右耳,,,
@@ -1513,6 +1515,7 @@ N0,Regional lymph node stage - There is no cancer in nearby lymph nodes,区域�
 N1,Cancer in lymph node - Stage 1,淋巴结癌-1期,https://www.cancer.gov/about-cancer/diagnosis-staging/staging,,
 N2,Cancer in lymph node - Stage 2,淋巴结癌-第二阶段,https://www.cancer.gov/about-cancer/diagnosis-staging/staging,,
 N3,Cancer in lymph node - Stage 3,淋巴结癌-第三阶段,https://www.cancer.gov/about-cancer/diagnosis-staging/staging,,
+NA,noradrenaline,去甲肾上腺素,https://en.wikipedia.org/wiki/Norepinephrine,,Y
 NABS,normal active bowel sounds,正常活跃的肠鸣音,,,
 NAC,N-acetylcysteine,乙酰半胱氨酸,https://en.wikipedia.org/wiki/Acetylcysteine,,
 NAD,no active disease,无活动性疾病,,,
@@ -1536,6 +1539,7 @@ NCP,nursing care plan,护理计划,https://en.wikipedia.org/wiki/Nursing_care_pl
 NCS,nerve conduction study,神经传导研究,https://en.wikipedia.org/wiki/Nerve_conduction_study,,
 NCT,national clinical trial,国家临床试验,,,
 NCV,Nerve Conduction Velocity,神经传导速度,,,
+NE,norepinephrine,去甲肾上腺素,https://en.wikipedia.org/wiki/Norepinephrine,,Y
 NEB,nebulizer,喷雾器,https://en.wikipedia.org/wiki/Nebulizer,,
 NED,no evidence of disease,没有疾病迹象,https://en.wikipedia.org/wiki/No_evidence_of_disease,,
 NF,Nissen fundoplication,尼森胃底折叠术,https://en.wikipedia.org/wiki/Nissen_fundoplication,,

@@ -13,7 +13,7 @@ for i in range(97, 123):
 def get_wiki(item, lang='en', variation='wiki'):
     result = requests.get(f'https://{lang}.wikipedia.org/{variation}/{item}')
     if result.status_code == 200:
-        soup = BeautifulSoup(result.text)
+        soup = BeautifulSoup(result.text, features='lxml')
         wiki_link = soup.find('link', rel='canonical')['href']
         return wiki_link
     return ''

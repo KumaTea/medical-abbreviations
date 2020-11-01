@@ -32,6 +32,8 @@ def write(item, first):
         content = csv.reader(f)
         next(content)
         for row in content:
+            if row[0].lower() == item[0].lower() and row[1].lower() == item[1].lower():
+                raise ValueError('Duplicated word with same abbreviation.')
             tmp.append(row)
     tmp.append(item)
     with open(f'../split/{first}.csv', 'w', encoding='utf-8', newline='') as f:
@@ -72,8 +74,9 @@ def add():
     write([abbr, mean, tr, wp, sj, vf], first)
 
     cb = input('End adding? [y/N]') or False
-    if cb:
-        combine()
+    if not cb:
+        add()
+    return True
 
 
 def quiet_add(abbr, mean, tr='', wp='', sj='', vf='', first='', cb=False):
