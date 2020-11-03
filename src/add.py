@@ -68,13 +68,13 @@ def add():
     if (input(f'\n\n\n\n----- VERIFICATION ------\n'
               f'{first_line[0]}: {abbr}\n{first_line[1]}: {mean}\n{first_line[2]}: {tr}\n{first_line[3]}: {wp}\n'
               f'{first_line[4]}: {sj}\n{first_line[5]}: {vf}\n\nLooks good? [Y/n]') or 'Y') == 'n':
-        raise RuntimeError
+        exit('Abort.')
 
     print('Writing...')
     write([abbr, mean, tr, wp, sj, vf], first)
 
-    cb = input('End adding? [y/N]') or False
-    if not cb:
+    cb = input('End adding? [Y/n]') or 'Y'
+    if cb.lower() == 'n':
         add()
     return True
 

@@ -76,6 +76,7 @@ ACTH,adrenocorticotropic hormone,促肾上腺皮质激素,https://en.wikipedia.o
 ACV,assist control ventilation,协助控制通风,,,
 ACVD,arteriosclerotic cardiovascular disease,动脉粥样硬化,https://en.wikipedia.org/wiki/Atherosclerosis,,
 ACh,acetylcholine,乙酰胆碱,https://en.wikipedia.org/wiki/Acetylcholine,,Y
+AChE,acetylcholinesterase,乙酰胆碱酯酶,https://en.wikipedia.org/wiki/Acetylcholinesterase,,Y
 AChR,acetylcholine receptor,乙酰胆碱受体,https://en.wikipedia.org/wiki/Acetylcholine_receptor,,Y
 AD,Alzheimer's disease,阿尔茨海默病,https://en.wikipedia.org/wiki/Alzheimer%27s_disease,,
 AD,atopic dermatitis,异位性皮炎,https://en.wikipedia.org/wiki/Atopic_dermatitis,,
@@ -1376,6 +1377,8 @@ M1,Cancer has spread to other parts of the body,癌症已经扩散到身体的�
 MA,migraine with aura,先兆,https://en.wikipedia.org/wiki/Aura_(symptom),,
 MAA,Mycotic Aortic Aneurysm,霉菌性主动脉瘤,,,
 MAC,Mycobacterium avium complex,鸟分枝杆菌复合体,https://en.wikipedia.org/wiki/Mycobacterium_avium_complex,,
+MAC,membrane attack complex,攻膜复合物,https://en.wikipedia.org/wiki/Complement_membrane_attack_complex,,Y
+MAC,minimum alveolar concentration,最低肺泡浓度,https://en.wikipedia.org/wiki/Minimum_alveolar_concentration,,Y
 MAC,monitored anesthesia care,监测麻醉护理,,,
 MACE,major adverse cardiac events,重大不良心脏事件,https://en.wikipedia.org/wiki/Major_adverse_cardiovascular_events,,
 MACI,matrix autologous chondrocyte implant ,基质自体软骨细胞植入物,,,
@@ -1419,7 +1422,7 @@ MET,Metabolic Equivalent,代谢当量,,,
 MET,motivational enhancement therapy,动机增强疗法,https://en.wikipedia.org/wiki/Motivational_enhancement_therapy,,
 MFC,medial femoral condyle,股内侧con,,,
 MFS,metastasis-free survival,无转移生存,,,
-MG,myasthenia gravis,重症肌无力,https://en.wikipedia.org/wiki/Myasthenia_gravis,,
+MG,myasthenia gravis,重症肌无力,https://en.wikipedia.org/wiki/Myasthenia_gravis,,Y
 MGMT,O[6]-methylguanine-DNA methyltransferase,O [6]-甲基鸟嘌呤-DNA甲基转移酶,,,
 MHOP,mental health outpatient services,心理健康门诊,,,
 MHV,Murine Hepatitis Virus,鼠肝炎病毒,,,
@@ -1926,7 +1929,7 @@ RDF,roof-dependent flutter,屋顶相关的颤动,,,
 RDI,respiratory disturbance index,呼吸障碍指数,https://en.wikipedia.org/wiki/Respiratory_disturbance_index,,
 RDS,respiratory distress syndrome,呼吸窘迫综合征,https://en.wikipedia.org/wiki/Respiratory_distress_syndrome,,
 RDV,remdesivir,瑞德西韦,https://en.wikipedia.org/wiki/Remdesivir,,
-REM,rapid eye movement,眼睛快速运动,https://en.wikipedia.org/wiki/Rapid_eye_movement,,
+REM,rapid eye movement,眼睛快速运动,https://en.wikipedia.org/wiki/Rapid_eye_movement_sleep,快速动眼期,Y
 REMS,risk evaluation and mitigation strategy,风险评估和缓解策略,https://en.wikipedia.org/wiki/Risk_Evaluation_and_Mitigation_Strategies,,
 RERA,respiratory-effort related arousal,呼吸努力相关唤醒,,,
 RETU,Rapid Evaluation and Treatment Unit,快速评估和治疗单位,,,
