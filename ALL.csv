@@ -192,6 +192,7 @@ APR,Abdominal Perineal Resection,腹部会阴切除,,,
 APRV,airway pressure release ventilation,气道压力释放通气,https://en.wikipedia.org/wiki/Airway_pressure_release_ventilation,,
 AQ,aquapheresis,水分置换疗法,https://en.wikipedia.org/wiki/Aquapheresis,,
 AQLQ,Asthma Quality of Life Questionnaire,哮喘生活质量问卷,,,
+AQP,aquaporin,水通道蛋白,https://en.wikipedia.org/wiki/Aquaporin,,Y
 AR,Allergic Rhinitis,过敏性鼻炎,,,
 AR,androgen receptor,雄激素受体,https://en.wikipedia.org/wiki/Androgen_receptor,,
 AR,aortic regurgitation,主动脉瓣关闭不全,https://en.wikipedia.org/wiki/Aortic_insufficiency,,
@@ -499,8 +500,9 @@ CM,chronic migraine,偏头痛,https://en.wikipedia.org/wiki/Migraine,,
 CM-AVM,capillary malformation–ateriovenous malformation syndrome,毛细血管畸形-动静脉畸形综合征,,,
 CMA,chromosomal microarray analysis,比较基因组杂交,https://en.wikipedia.org/wiki/Comparative_genomic_hybridization#Array-CGH,,
 CMAP,compound muscle action potential,复合肌肉动作电位,https://en.wikipedia.org/wiki/Compound_muscle_action_potential,,
-CMB,cerebral microbleed,脑微出血,"[""https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6428007/"", ""https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3414436/""]",Neurology,Y
-CML,"[""chronic myelogenous leukemia"", ""chronic myeloid leukemia""]",慢性粒细胞性白血病,https://en.wikipedia.org/wiki/Chronic_myelogenous_leukemia,,Y
+CMB,cerebral microbleed,脑微出血,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6428007/,Neurology,Y
+CML,chronic myelogenous leukemia,慢性粒细胞性白血病,https://en.wikipedia.org/wiki/Chronic_myelogenous_leukemia,,Y
+CML,chronic myeloid leukemia,慢性粒细胞性白血病,https://en.wikipedia.org/wiki/Chronic_myelogenous_leukemia,,Y
 CMP,cardiomyopathy,心肌症,https://en.wikipedia.org/wiki/Cardiomyopathy,,
 CMP,comprehensive metabolic panel,综合代谢小组,https://en.wikipedia.org/wiki/Comprehensive_metabolic_panel,,
 CMPA,cow’s milk protein allergy,牛奶蛋白过敏,,,
@@ -1248,6 +1250,7 @@ i-TIMI,initial-thrombolysis in myocardial infarction,心肌梗塞初期溶栓,,,
 iNKT,invariant natural killer T,不变自然杀手T,,,
 iPSA,intact prostate specific antigen,完整的前列腺特异性抗原,,,
 iPSC,induced pluripotent stem cell,诱导性多能干细胞,https://en.wikipedia.org/wiki/Induced_pluripotent_stem_cell,,
+iPSCs,induced pluripotent stem cell,诱导性多能干细胞,https://en.wikipedia.org/wiki/Induced_pluripotent_stem_cell,,Y
 indel,insertion-deletion,插入删除,,,
 JAK,janus kinase,JAK激酶,https://en.wikipedia.org/wiki/Janus_kinase,,
 JAK-STAT,"janus kinase, signal transducer and activator of transcription protein",janus激酶，信号转导子和转录蛋白激活剂,,,
@@ -1828,6 +1831,7 @@ PRISMA,Preferred Reporting Items for Systematic Reviews and Meta-Analyses,系统
 PRK,photorefractive keratectomy,激光屈光角膜切削术,https://en.wikipedia.org/wiki/Photorefractive_keratectomy,,
 PRN,as needed,如所须,,,
 PROM,premature rupture of membranes,早期羊膜囊破裂,https://en.wikipedia.org/wiki/Prelabor_rupture_of_membranes,,
+PRR,pattern recognition receptor,模式识别受体,https://en.wikipedia.org/wiki/Pattern_recognition_receptor,Immunology,Y
 PRRT2,Proline Rich Transmembrane Protein 2,脯氨酸丰富的跨膜蛋白2,,,
 PRV,planning at-risk volume,计划风险量,,,
 PS,Parkinsonian syndromes,帕金森综合症,,,
@@ -1929,7 +1933,7 @@ RDF,roof-dependent flutter,屋顶相关的颤动,,,
 RDI,respiratory disturbance index,呼吸障碍指数,https://en.wikipedia.org/wiki/Respiratory_disturbance_index,,
 RDS,respiratory distress syndrome,呼吸窘迫综合征,https://en.wikipedia.org/wiki/Respiratory_distress_syndrome,,
 RDV,remdesivir,瑞德西韦,https://en.wikipedia.org/wiki/Remdesivir,,
-REM,rapid eye movement,眼睛快速运动,https://en.wikipedia.org/wiki/Rapid_eye_movement_sleep,快速动眼期,Y
+REM,rapid eye movement,快速动眼期,https://en.wikipedia.org/wiki/Rapid_eye_movement,,Y
 REMS,risk evaluation and mitigation strategy,风险评估和缓解策略,https://en.wikipedia.org/wiki/Risk_Evaluation_and_Mitigation_Strategies,,
 RERA,respiratory-effort related arousal,呼吸努力相关唤醒,,,
 RETU,Rapid Evaluation and Treatment Unit,快速评估和治疗单位,,,
@@ -2209,7 +2213,7 @@ TKO,to keep open,保持开放,,,
 TKR,total knee replacement,全膝关节置换,https://en.wikipedia.org/wiki/Knee_replacement,,
 TLH,total laparoscopic hysterectomy,全腹腔镜子宫切除术,,,
 TLIF,Transforaminal Lumbar Interbody Fusion,经椎间孔腰椎椎体间融合术,,,
-TLR,Toll‐like receptors,Toll样受体,,,
+TLR,toll-like receptor,Toll样受体,https://en.wikipedia.org/wiki/Toll-like_receptor,Immunology,Y
 TM,tectorial membrane,保护膜,https://en.wikipedia.org/wiki/Tectorial_membrane,,
 TM,transformed migraine,转化偏头痛,,,
 TM,tympanic membrane (eardrum),鼓膜（鼓膜）,,,

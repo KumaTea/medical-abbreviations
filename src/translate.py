@@ -22,11 +22,11 @@ translator = google_tl.Client()
 
 def translate_from_wiki(wiki, variation='zh-cn'):
     result = requests.get(wiki)
-    soup = BeautifulSoup(result.text)
+    soup = BeautifulSoup(result.text, features='lxml')
     tr = soup.find('a', lang='zh', class_='interlanguage-link-target')
     if tr:
         zh_result = requests.get(tr['href'].replace('/wiki/', f'/{variation}/'))
-        soup = BeautifulSoup(zh_result.text)
+        soup = BeautifulSoup(zh_result.text, features='lxml')
         zh = soup.find('h1', id='firstHeading', lang='zh-Hans-CN')
         if zh:
             print('Get Wikipedia result!')
@@ -34,17 +34,26 @@ def translate_from_wiki(wiki, variation='zh-cn'):
     return ''
 
 
-def translate_word(text, source='en', target='zh-CN', wiki=None):
+def translate_word(text, source='en', target='zh-CN', wiki=None, return_type=False):
     text = text.decode("utf-8") if isinstance(text, six.binary_type) else text
     # I don't know why, Google says that.
+    result = ''
+    tr_type = 'n'
 
     if wiki and 'wiki' in wiki.lower():
         w_result = translate_from_wiki(wiki)
         if w_result:
-            return w_result
+            result = w_result
+            tr_type = 'w'
+    if not result:
+        t_result = translator.translate(text, target_language=target, source_language=source)
+        result = t_result['translatedText']
+        tr_type = 'g'
 
-    t_result = translator.translate(text, target_language=target, source_language=source)
-    return t_result['translatedText']
+    if return_type:
+        return result, tr_type
+    else:
+        return result
 
 
 def translate():

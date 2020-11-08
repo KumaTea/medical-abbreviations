@@ -121,8 +121,9 @@ CM,chronic migraine,偏头痛,https://en.wikipedia.org/wiki/Migraine,,
 CM-AVM,capillary malformation–ateriovenous malformation syndrome,毛细血管畸形-动静脉畸形综合征,,,
 CMA,chromosomal microarray analysis,比较基因组杂交,https://en.wikipedia.org/wiki/Comparative_genomic_hybridization#Array-CGH,,
 CMAP,compound muscle action potential,复合肌肉动作电位,https://en.wikipedia.org/wiki/Compound_muscle_action_potential,,
-CMB,cerebral microbleed,脑微出血,"[""https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6428007/"", ""https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3414436/""]",Neurology,Y
-CML,"[""chronic myelogenous leukemia"", ""chronic myeloid leukemia""]",慢性粒细胞性白血病,https://en.wikipedia.org/wiki/Chronic_myelogenous_leukemia,,Y
+CMB,cerebral microbleed,脑微出血,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6428007/,Neurology,Y
+CML,chronic myelogenous leukemia,慢性粒细胞性白血病,https://en.wikipedia.org/wiki/Chronic_myelogenous_leukemia,,Y
+CML,chronic myeloid leukemia,慢性粒细胞性白血病,https://en.wikipedia.org/wiki/Chronic_myelogenous_leukemia,,Y
 CMP,cardiomyopathy,心肌症,https://en.wikipedia.org/wiki/Cardiomyopathy,,
 CMP,comprehensive metabolic panel,综合代谢小组,https://en.wikipedia.org/wiki/Comprehensive_metabolic_panel,,
 CMPA,cow’s milk protein allergy,牛奶蛋白过敏,,,

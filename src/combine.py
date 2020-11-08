@@ -9,6 +9,18 @@ for i in range(97, 123):
     split.append(f'../split/{chr(i)}.csv')
 
 
+def format_query(text):
+    result = ''
+    for character in text:
+        if ord(character) in range(48, 58):
+            result += character
+        elif ord(character) in range(65, 91):
+            result += character.lower()
+        elif ord(character) in range(97, 123):
+            result += character
+    return result
+
+
 def get_all():
     all_words = []
     for item in split:
@@ -42,9 +54,11 @@ def gen_db(name='ALL.db'):
     cursor.execute(f'CREATE TABLE \"{table_name}\" ('
                    f'\"{first_line[0]}\" TEXT, \"{first_line[1]}\" TEXT,'
                    f'\"{first_line[2]}\" TEXT, \"{first_line[3]}\" TEXT,'
-                   f'\"{first_line[4]}\" TEXT, \"{first_line[5]}\" TEXT)')
+                   f'\"{first_line[4]}\" TEXT, \"{first_line[5]}\" TEXT,'
+                   f'\"Query\" TEXT)')
     for word in all_words:
-        cursor.execute(f'INSERT INTO \"{table_name}\" VALUES (' + str(word)[1:-1] + ')')
+        cursor.execute(
+            f'INSERT INTO \"{table_name}\" VALUES (' + str(word)[1:-1] + ', \'' + format_query(word[0]) + '\')')
     connection.commit()
     connection.close()
     return True

@@ -3,6 +3,7 @@ import time
 import sqlite3
 from add import get_first
 from common import first_line
+from combine import format_query
 
 
 db_path = f'../ALL.db'
@@ -37,8 +38,8 @@ def query_sql():
         exit('No word provided.')
     connection = sqlite3.connect(db_path)
     cursor = connection.cursor()
-    t = (word.lower(),)
-    cursor.execute(f'SELECT * FROM {table_name} WHERE lower({first_line[0]})=?', t)
+    query_word = (format_query(word),)
+    cursor.execute(f'SELECT * FROM {table_name} WHERE Query=?', query_word)
     match = cursor.fetchall()
     connection.close()
     print('\n\n----- RESULTS ------\n')

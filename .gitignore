@@ -1,3 +1,4 @@
 .idea
 local.py
 *.db
+__pycache__

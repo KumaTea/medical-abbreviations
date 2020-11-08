@@ -56,11 +56,13 @@ def add():
     if tr_auto.lower() == 'n':
         tr = input(f'Please input the {first_line[2]}:') or ''
     else:
+        tr_type = 'n'
         try:  # If no Google Translate API access
-            tr = translate_word(mean)
+            tr, tr_type = translate_word(mean, wiki=wp, return_type=True)
         except:
             tr = 'Error: no Google Translate API access'
-        tr = input(f'Accept \"{tr}\" (default) or input manually:') or tr
+        tr_src = 'Wikipedia' if tr_type == 'w' else 'Google Translate'
+        tr = input(f'Accept \"{tr}\" ({tr_src}) or input manually:') or tr
     sj = input(f'Please input the {first_line[4]}:') or ''
     vf = input(f'Mark as {first_line[5]}? [Y/n]') or 'Y'
     first = get_first(abbr)
