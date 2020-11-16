@@ -20,24 +20,25 @@ This repository is originally forked from [imantsm/medical_abbreviations](https:
 
 ## Tasks
 
-### Future Updates
+### TODO
 
-Here's all the textbooks which I plan to collect abbrevations from:
+* Store Greek alphabets
+* Extract text and automatically find abbrevations from the following textbooks:
 
-* [ ] Systemic Anatomy
-* [ ] Regional Anatomy
-* [ ] Histology and Embryology
-* [ ] Biochemistry and Molecular Biology
-* [ ] Physiology
-* [ ] Pathology
-* [ ] Immunology
-* [ ] Microbiology
-* [ ] Diagnostics
-* [ ] Pharmacology
-* [ ] Pathophysiology
-* [ ] Parasitology
-
-... and subjects I haven't learned yet.
+  * [ ] Systemic Anatomy
+  * [ ] Regional Anatomy
+  * [ ] Histology and Embryology
+  * [ ] Biochemistry and Molecular Biology
+  * [ ] Physiology
+  * [ ] Pathology
+  * [ ] Immunology
+  * [ ] Microbiology
+  * [ ] Diagnostics
+  * [ ] Pharmacology
+  * [ ] Pathophysiology
+  * [ ] Parasitology
+  
+  ... and subjects I haven't learned yet.
 
 ### Verification
 

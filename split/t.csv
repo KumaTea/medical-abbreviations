@@ -5,13 +5,25 @@ T&A,tonsillectomy and adenoidectomy,扁桃体切除术和腺样体切除术,,,
 T-PLL,T-Cell Prolymphocytic Leukemia,T细胞淋巴细胞白血病,,,
 T0,Tumor stage - Main tumor cannot be found,肿瘤分期-找不到主要肿瘤,https://www.cancer.gov/about-cancer/diagnosis-staging/staging,,
 T1,Stage 1 tumor,1期肿瘤,https://www.cancer.gov/about-cancer/diagnosis-staging/staging,,
+T1,first thoracic spine vertebra,第一胸椎,https://en.wikipedia.org/wiki/Thoracic_vertebrae,,Y
+T10,tenth thoracic spine vertebra,第十胸椎,https://en.wikipedia.org/wiki/Thoracic_vertebrae,,Y
+T11,eleventh thoracic spine vertebra,第十一胸椎,https://en.wikipedia.org/wiki/Thoracic_vertebrae,,Y
+T12,twelfth thoracic spine vertebra,第十二胸椎,https://en.wikipedia.org/wiki/Thoracic_vertebrae,,Y
 T1DM,type 1 Diabetes Mellitus,1型糖尿病,,,
 T2,Stage 2 tumor,2期肿瘤,https://www.cancer.gov/about-cancer/diagnosis-staging/staging,,
+T2,second thoracic spine vertebra,第二胸椎,https://en.wikipedia.org/wiki/Thoracic_vertebrae,,Y
 T2DM,type 2 Diabetes Mellitus,2型糖尿病,,,
 T3,Stage 3 tumor,3期肿瘤,https://www.cancer.gov/about-cancer/diagnosis-staging/staging,,
 T3,Triiodothyronine,三碘甲状腺原氨酸,https://en.wikipedia.org/wiki/Triiodothyronine,,
+T3,third thoracic spine vertebra,第三胸椎,https://en.wikipedia.org/wiki/Thoracic_vertebrae,,Y
 T4,Stage 4 tumor,4期肿瘤,https://www.cancer.gov/about-cancer/diagnosis-staging/staging,,
 T4,Thyroxine,甲状腺激素,https://en.wikipedia.org/wiki/Thyroid_hormones,,
+T4,fourth thoracic spine vertebra,第四胸椎,https://en.wikipedia.org/wiki/Thoracic_vertebrae,,Y
+T5,fifth thoracic spine vertebra,第五胸椎,https://en.wikipedia.org/wiki/Thoracic_vertebrae,,Y
+T6,sixth thoracic spine vertebra,第六胸椎,https://en.wikipedia.org/wiki/Thoracic_vertebrae,,Y
+T7,seventh thoracic spine vertebra,第七胸椎,https://en.wikipedia.org/wiki/Thoracic_vertebrae,,Y
+T8,eighth thoracic spine vertebra,第八胸椎,https://en.wikipedia.org/wiki/Thoracic_vertebrae,,Y
+T9,ninth thoracic spine vertebra,第九胸椎,https://en.wikipedia.org/wiki/Thoracic_vertebrae,,Y
 TA,tibialis anterior,胫前肌,https://en.wikipedia.org/wiki/Tibialis_anterior_muscle,,
 TAAA,Thoracoabdominal Aortic Aneurysm,胸腹主动脉瘤,,,
 TAH,total abdominal hysterectomy,子宫切除术,https://en.wikipedia.org/wiki/Hysterectomy#Types_of_hysterectomy,,
@@ -60,6 +72,7 @@ TKR,total knee replacement,全膝关节置换,https://en.wikipedia.org/wiki/Knee
 TLH,total laparoscopic hysterectomy,全腹腔镜子宫切除术,,,
 TLIF,Transforaminal Lumbar Interbody Fusion,经椎间孔腰椎椎体间融合术,,,
 TLR,toll-like receptor,Toll样受体,https://en.wikipedia.org/wiki/Toll-like_receptor,Immunology,Y
+TLSO,thoracic-lumbar-sacral orthotic,胸腰lum骨矫形器,,,
 TM,tectorial membrane,保护膜,https://en.wikipedia.org/wiki/Tectorial_membrane,,
 TM,transformed migraine,转化偏头痛,,,
 TM,tympanic membrane (eardrum),鼓膜（鼓膜）,,,
@@ -118,6 +131,7 @@ TVR,Tricuspid Valve Replacement,三尖瓣置换,,,
 TVUS,Transvaginal Ultrasound,经阴道超声,,,
 TVV,Tricuspid Valve Valvuloplasty,三尖瓣瓣膜成形术,,,
 TX,Tumor stage - Main tumor cannot be measured,肿瘤分期-无法测量主要肿瘤,https://www.cancer.gov/about-cancer/diagnosis-staging/staging,,
+TXA,tranexamic acid,传明酸,https://en.wikipedia.org/wiki/Tranexamic_acid,,
 TZD,Thiazolidinediones,噻唑烷二酮类,https://en.wikipedia.org/wiki/Thiazolidinedione,,
 Tdap,"tetanus, diptheria, and tetanus",破伤风，白喉和破伤风,,,
 Tx,treatment,治疗,https://en.wikipedia.org/wiki/Treatment,,

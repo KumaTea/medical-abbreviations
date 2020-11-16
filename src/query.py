@@ -51,4 +51,5 @@ def query_sql():
 
 
 if __name__ == '__main__':
-    query()
+    # query()
+    query_sql()

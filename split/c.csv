@@ -3,6 +3,13 @@ C DIFF,Clostridium difficile,艰难梭菌,https://en.wikipedia.org/wiki/Clostrid
 C&S,culture and sensitivity,文化和敏感性,https://en.wikipedia.org/wiki/Antibiotic_sensitivity_testing,,
 C/B,complicated by,并发,,,
 C/O,complaint of,的抱怨,,,
+C1,first cervical spine vertebra,第一颈椎,https://en.wikipedia.org/wiki/Cervical_vertebrae,,Y
+C2,second cervical spine vertebra,第二颈椎,https://en.wikipedia.org/wiki/Cervical_vertebrae,,Y
+C3,third cervical spine vertebra,第三颈椎,https://en.wikipedia.org/wiki/Cervical_vertebrae,,Y
+C4,fourth cervical spine vertebra,第四颈椎,https://en.wikipedia.org/wiki/Cervical_vertebrae,,Y
+C5,fifth cervical spine vertebra,第五颈椎,https://en.wikipedia.org/wiki/Cervical_vertebrae,,Y
+C6,sixth cervical spine vertebra,第六颈椎,https://en.wikipedia.org/wiki/Cervical_vertebrae,,Y
+C7,seventh cervical spine vertebra,第七颈椎,https://en.wikipedia.org/wiki/Cervical_vertebrae,,Y
 CA,calcium,钙,https://en.wikipedia.org/wiki/Calcium,,
 CA,cancer,癌症,https://en.wikipedia.org/wiki/Cancer,,
 CA,catheter ablation,导管消融,https://en.wikipedia.org/wiki/Catheter_ablation,,
@@ -69,6 +76,7 @@ CEA,Carotid Endarterectomy,颈动脉内膜切除手术,https://en.wikipedia.org/
 CED,Cervical Endoscopic Discectomy,颈内镜椎间盘切除术,,,
 CED,Coverage with Evidence Development,证据发展的覆盖范围,,,
 CEUS,contrast-enhanced ultrasound,超声造影成像,https://en.wikipedia.org/wiki/Contrast-enhanced_ultrasound,,
+CF,citrate-free,无柠檬酸盐,,,
 CF,cystic fibrosis,囊肿性纤维化,https://en.wikipedia.org/wiki/Cystic_fibrosis,,
 CFA,Common Femoral Artery,股总动脉,,,
 CFC,cardio-facio-cutaneous syndrome,心脸皮肤综合征,https://en.wikipedia.org/wiki/Cardiofaciocutaneous_syndrome,,
@@ -129,6 +137,7 @@ CMP,comprehensive metabolic panel,综合代谢小组,https://en.wikipedia.org/wi
 CMPA,cow’s milk protein allergy,牛奶蛋白过敏,,,
 CMR,cardiac magnetic resonance,心血管磁共振成像,https://en.wikipedia.org/wiki/Cardiac_magnetic_resonance_imaging,,
 CMS,Centers for Medicare & Medicaid Services,医疗保险和医疗补助服务中心,https://en.wikipedia.org/wiki/Centers_for_Medicare_%26_Medicaid_Services,,
+CMT,Charcot-Marie-Tooth,进行性神经性腓骨肌萎缩症,https://en.wikipedia.org/wiki/Charcot%E2%80%93Marie%E2%80%93Tooth_disease,,
 CMT,cervical motion tenderness,宫颈举痛,https://en.wikipedia.org/wiki/Cervical_motion_tenderness,,
 CMV,continuous mandatory ventilation,持续强制通风,https://en.wikipedia.org/wiki/Continuous_mandatory_ventilation,,
 CMV,cytomegalovirus,巨细胞病毒,https://en.wikipedia.org/wiki/Cytomegalovirus,,
@@ -161,6 +170,7 @@ CPE,cytopathic effect,细胞病变作用,https://en.wikipedia.org/wiki/Cytopathi
 CPG,Clinical Practice Guideline,临床实践指南,,,
 CPHSS,Cincinnati Prehospital Stroke Scale,辛辛那提院前卒中量表,https://en.wikipedia.org/wiki/Cincinnati_Prehospital_Stroke_Scale,,
 CPK,creatine phosphokinase,肌酸激酶,https://en.wikipedia.org/wiki/Creatine_kinase,,
+CPK-MB,creatine phosphokinase muscle bandisoenzyme,肌酸磷酸激酶肌带同工酶,,,
 CPM,continuous passive motion,连续被动运动,https://en.wikipedia.org/wiki/Continuous_passive_motion,,
 CPNB,continuous peripheral nerve block,连续性周围神经阻滞,https://en.wikipedia.org/wiki/Nerve_block,,
 CPP,central precocious puberty,中央性早熟,https://en.wikipedia.org/wiki/Precocious_puberty#Central,,
@@ -174,6 +184,8 @@ CPT,chest physiotherapy,胸部理疗,https://en.wikipedia.org/wiki/Chest_physiot
 CR,clinical response,临床反应,,,
 CR,complete response,完整回应,https://en.wikipedia.org/wiki/Clinical_endpoint,,
 CRBBB,complete right bundle branch block,完全右束支传导阻滞,,,
+CREB,cAMP response element-binding protein,cAMP反应元件结合蛋白,https://en.wikipedia.org/wiki/CREB,,
+CREBBP,CREB binding protein,CREB结合蛋白,https://en.wikipedia.org/wiki/CREB-binding_protein,,
 CRF,chronic renal failure,慢性肾脏病,https://en.wikipedia.org/wiki/Chronic_kidney_disease,,
 CRISA,catheterization risk in adult patients,成年患者的导管插入风险,,,
 CRISPR,clustered regularly interspaced short palindromic repeats,CRISPR,https://en.wikipedia.org/wiki/CRISPR,,
@@ -190,6 +202,7 @@ CS,Costello syndrome,先天性水痘症候群,https://en.wikipedia.org/wiki/Cost
 CS-IMRT,carotid-sparing intensity-modulated radiotherapy,颈动脉保留强度调制放疗,,,
 CSD,cortical spreading depression,皮质扩散性凹陷,https://en.wikipedia.org/wiki/Cortical_spreading_depression,,
 CSF,cerebrospinal fluid,脑脊液,https://en.wikipedia.org/wiki/Cerebrospinal_fluid,,
+CSI,corticosteroid injection,皮质类固醇注射,,,
 CSS,cancer-specific survival,癌症特异性生存,,,
 CT,computerized tomography,X射线计算机断层成像,https://en.wikipedia.org/wiki/CT_scan,,
 CTA,Computed Tomographic Angiography,计算机体层摄影血管造影,,,
@@ -232,7 +245,9 @@ cAMP,cyclic adenosine monophosphate,环腺苷酸,https://en.wikipedia.org/wiki/C
 cAb,core antibody,核心抗体,,,
 cDNA,complementary DNA,互补脱氧核糖核酸,https://en.wikipedia.org/wiki/Complementary_DNA,,
 cDNA-AFLP,cDNA-amplified restriction fragment–length polymorphism,cDNA扩增的限制性片段长度多态性,,,
+cGy,centigray,戈瑞,https://en.wikipedia.org/wiki/Gray_(unit),,
 cSNP,coding single-nucleotide polymorphism,编码单核苷酸多态性,,,
+cc,cubic centimeter,立方厘米,https://en.wikipedia.org/wiki/Cubic_centimetre,,
 ce-CMR,contrast-enhanced cardiac magnetic resonance,对比增强心脏磁共振,,,
 cfDNA,cell-free DNA,无细胞DNA,https://en.wikipedia.org/wiki/Cell-free_DNA,,
 chEVAR,chimney endovascular aneurysm repair,烟囱血管内动脉瘤修复,,,

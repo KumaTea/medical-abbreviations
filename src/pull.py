@@ -2,11 +2,11 @@ import csv
 from urllib import request
 from add import quiet_add
 from combine import combine
-from common import upstream
+from common import upstream, ignore_words
 
 
-guc = 'https://raw.github.cnpmjs.org'
-# guc = 'https://raw.githubusercontent.com'
+# guc = 'https://raw.github.cnpmjs.org'
+guc = 'https://raw.githubusercontent.com'
 upstream_link = [
     f'{guc}/{upstream}/master/%23-M%2C%20medical%20abbreviations.csv',
     f'{guc}/{upstream}/master/N-Z%2C%20medical%20abbreviations.csv'
@@ -14,15 +14,15 @@ upstream_link = [
 
 
 if __name__ == '__main__':
-    # Get all words
+    print('Get all words...')
     all_words = []
     with open(f'../ALL.csv', encoding='utf-8', newline='') as f:
         content = csv.reader(f)
         next(content)
         for row in content:
-            all_words.append(row[1])
+            all_words.append(row[1].lower())
 
-    # Get upstream
+    print('Get upstream...')
     upstream_content = []
     for item in upstream_link:
         result = request.urlopen(item)
@@ -33,7 +33,7 @@ if __name__ == '__main__':
         content = csv.reader(f)
         next(content)
         for row in content:
-            if row[1] not in all_words:
+            if row[1].lower() not in all_words and row[1].lower() not in ignore_words:
                 print(f'Adding {row[1]}...')
                 new_words.append(row)
 

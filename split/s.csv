@@ -1,12 +1,20 @@
 Abbreviation,Meaning,Translation,Wikipedia,Subject,Verified
 S/P,status post,状态讯息,https://en.wikipedia.org/wiki/Sequela,,
+S1,first sacral vertebra,第一骶骨,https://en.wikipedia.org/wiki/Sacrum,,Y
+S2,second sacral vertebra,第二骶骨,https://en.wikipedia.org/wiki/Sacrum,,Y
+S3,third sacral vertebra,第三骶骨,https://en.wikipedia.org/wiki/Sacrum,,Y
+S4,fourth sacral vertebra,第四骶骨,https://en.wikipedia.org/wiki/Sacrum,,Y
+S5,fifth sacral vertebra,第五骶骨,https://en.wikipedia.org/wiki/Sacrum,,Y
 SAAG,serum-ascites albumin gradient,血清腹水白蛋白梯度,https://en.wikipedia.org/wiki/Serum-ascites_albumin_gradient,,
 SAB,spontaneous abortion,流产,https://en.wikipedia.org/wiki/Miscarriage,,
 SABR,spontaneous abortion rate,自然流产率,,,
+SABR-COMET,Stereotactic Ablative Radiotherapy for the Comprehensive Treatment of Oligometastases,立体定向消融放射疗法对寡转移的综合治疗,,,
 SACH,"solid ankle, cushioned heel",脚踝结实，脚跟垫,,,
 SAD,seasonal affective disorder,季节性抑郁症,https://en.wikipedia.org/wiki/Seasonal_affective_disorder,,
 SAE,serious adverse event,严重不良事件,https://en.wikipedia.org/wiki/Serious_adverse_event,,
 SAEF,Secondary Aortoenteric Fistula,继发性主肠瘘,,,
+SAGES,Society of American Gastrointestinal and Endoscopic Surgeons,美国胃肠内窥镜医师学会,https://en.wikipedia.org/wiki/Society_of_American_Gastrointestinal_and_Endoscopic_Surgeons,,
+SAH,Subarachnoid Hemorrhage,蛛网膜下腔出血,,,
 SALT,Severity of Alopecia Tool,严重程度的脱发工具,,,
 SAMe,S-adenosylmethionine,S-腺苷甲硫氨酸,https://en.wikipedia.org/wiki/S-Adenosyl_methionine,,
 SARI,Severe Acute Respiratory Infections,严重急性呼吸道感染,,,
@@ -15,7 +23,9 @@ SARS-CoV,severe acute respiratory syndrome coronavirus,严重急性呼吸道综�
 SARS-CoV-2,Severe Acute Respiratory Syndrome Coronavirus-2 Virus,严重急性呼吸系统综合症冠状病毒2病毒,,,
 SAVR,surgical aortic valve replacement,手术主动脉瓣置换,,,
 SB,small bowel,小肠,https://en.wikipedia.org/wiki/Small_intestine,,
+SBE,subacute bacterial endocarditis,亚急性细菌性心内膜炎,https://en.wikipedia.org/wiki/Subacute_bacterial_endocarditis,,
 SBFT,small bowel follow through,小肠通过,https://en.wikipedia.org/wiki/Upper_gastrointestinal_series,,
+SBM,spontaneous bowel movement,自发排便,,,
 SBO,small bowel obstruction,肠梗阻,https://en.wikipedia.org/wiki/Bowel_obstruction#Small_bowel_obstruction,,
 SBP,spontaneous bacterial peritonitis,自发性细菌性腹膜炎,https://en.wikipedia.org/wiki/Spontaneous_bacterial_peritonitis,,
 SBP,systolic blood pressure,血压,https://en.wikipedia.org/wiki/Blood_pressure,,
@@ -34,6 +44,7 @@ SCS,spinal cord stimulator,脊髓刺激器,https://en.wikipedia.org/wiki/Spinal_
 SCT,specialty care transport,专科护理运输,,,
 SCT,stem cell transplantation,骨髓移植,https://en.wikipedia.org/wiki/Hematopoietic_stem_cell_transplantation,,
 SCU,special care unit,特别护理单位,,,
+SD,stable disease,疾病稳定,,,
 SD,standard deviation,标准差,https://en.wikipedia.org/wiki/Standard_deviation,,
 SDB,sleep disordered breathing,睡眠呼吸障碍,https://en.wikipedia.org/wiki/Sleep_and_breathing#Sleep-disordered_breathing_(abnormal_sleep_and_breathing_or_sleep-related_breathing_disorders),,
 SDH,subdural hematoma,头部外伤,https://en.wikipedia.org/wiki/Subdural_hematoma,,
@@ -122,6 +133,7 @@ STI,sexuallty transmitted infection,性传播感染,,,
 STOPAH,Steroids or Pentoxifylline for Alcoholic Hepatitis,类固醇或己酮可可碱治疗酒精性肝炎,,,
 STRN,Soft tissue radionecrosis,软组织放射性坏死,,,
 STS,Society of Thoracic Surgeons,胸外科医师学会,https://en.wikipedia.org/wiki/Society_of_Thoracic_Surgeons,,
+STS,serologic test for syphilis,梅毒血清学检查,,,
 STS,soft tissue sarcoma,软组织肉瘤,https://en.wikipedia.org/wiki/Soft-tissue_sarcoma,,
 STSG,Split Thickness Skin Graft,分割厚度的植皮,,,
 SUD,substance use disorder,物质使用疾患,https://en.wikipedia.org/wiki/Substance_use_disorder,,

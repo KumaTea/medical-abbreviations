@@ -82,8 +82,8 @@ def add():
 
 
 def quiet_add(abbr, mean, tr='', wp='', sj='', vf='', first='', cb=False):
-    tr = tr or translate_word(mean)
-    wp = wp or get_wiki(mean) or get_wiki(abbr)
+    wp = wp or get_wiki(mean)  # or get_wiki(abbr)
+    tr = tr or translate_word(mean, wiki=wp)
     first = first or get_first(abbr)
     if not first:
         first = input(f'Unable to detect the first letter of {abbr}: {mean}. '

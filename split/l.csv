@@ -1,8 +1,14 @@
 Abbreviation,Meaning,Translation,Wikipedia,Subject,Verified
 L,left,剩下,https://en.wikipedia.org/wiki/Left,,
 L&D,labor and delivery,分娩,https://en.wikipedia.org/wiki/Childbirth,,
+L1,first lumbar spine vertebra,第一腰椎,https://en.wikipedia.org/wiki/Lumbar_vertebrae,,Y
+L2,second lumbar spine vertebra,第二腰椎,https://en.wikipedia.org/wiki/Lumbar_vertebrae,,Y
+L3,third lumbar spine vertebra,第三腰椎,https://en.wikipedia.org/wiki/Lumbar_vertebrae,,Y
+L4,fourth lumbar spine vertebra,第四腰椎,https://en.wikipedia.org/wiki/Lumbar_vertebrae,,Y
+L5,fifth lumbar spine vertebra,第五腰椎,https://en.wikipedia.org/wiki/Lumbar_vertebrae,,Y
 LA,left atrium,心房,https://en.wikipedia.org/wiki/Atrium_(heart),,
 LA,leukoaraiosis,脑白质疏松症,https://en.wikipedia.org/wiki/Leukoaraiosis,,
+LA classification,Los Angeles Classification of Gastroesophageal Reflux Disease,洛杉矶胃食管反流疾病分类,https://www.sciencedirect.com/science/article/pii/S2212097113700463,,
 LAA ,left atrial appendage,心房,https://en.wikipedia.org/wiki/Atrium_(heart),,
 LAAC,left atrial appendage closure,左心耳封堵,,,
 LAAEV,left atrium appendage emptying velocity,左心耳附件排空速度,,,
@@ -16,6 +22,7 @@ LAD,lymphadenopathy,淋巴结肿大,https://en.wikipedia.org/wiki/Lymphadenopath
 LAER,late auditory evoked response,晚期听觉诱发反应,,,
 LAFB,left anterior fascicular block,左前束状传导阻滞,https://en.wikipedia.org/wiki/Left_anterior_fascicular_block,,
 LAHB,left anterior hemiblock,左前半阻滞,https://en.wikipedia.org/wiki/Left_anterior_fascicular_block,,
+LAMA,long-acting muscarinic antagonist,长效毒蕈碱拮抗剂,https://en.wikipedia.org/wiki/Muscarinic_antagonist,,
 LASIK,laser-assisted in situ keratomileusis,准分子激光原位角膜磨镶术,https://en.wikipedia.org/wiki/LASIK,,
 LAT,large neutral amino acid transporter,大型中性氨基酸转运蛋白,https://en.wikipedia.org/wiki/CD98,,
 LAVH,Laparoscopic Assisted Vaginal Hysterectomy,腹腔镜辅助阴道子宫切除术,,,
@@ -88,6 +95,8 @@ LSPAF,long-standing persistent atrial fibrillation,长期持续性房颤,,,
 LSS,lumbar spinal stenosis,腰椎管狭窄症,https://en.wikipedia.org/wiki/Lumbar_spinal_stenosis,,
 LSV,Long Saphenous Vein,长隐静脉,,,
 LT,liver transplantation,肝移植,https://en.wikipedia.org/wiki/Liver_transplantation,,
+LTAC,long term acute care,长期急性护理,,,
+LTACH,long term acute care hospital,长期急性护理医院,,,
 LTBI,latent tuberculosis infection,潜伏性结核感染,,,
 LUE,left upper extremity,左上肢,,,
 LUL,left upper lobe,左上叶,,,
